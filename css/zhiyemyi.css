@@ -1,0 +1,163 @@
+/* 第一部分 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.tobu {
+    width: 100%;
+    height: 55px;
+    background-color: #FFF;
+}
+
+.container-zbian {
+    float: left;
+    width: 180px;
+    height: 55px;
+    background-color: #cf1132;
+}
+
+.container-zbian span {
+    font-size: 11px;
+    color: #FFF;
+    line-height: 55px;
+    padding-left: 75px;
+    box-sizing: border-box;
+}
+
+.container-tupian {
+    float: left;
+}
+
+.container-tupian img {
+    margin-top: 4px;
+    height: 44px;
+    margin-left: 742px;
+    box-sizing: border-box;
+}
+
+.container-youbian {
+    float: right;
+    width: 138px;
+    height: 55px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.container-youbian:hover {
+    border-bottom: 1px solid red;
+}
+
+.container-youbian a {
+    color: #333;
+    line-height: 55px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.container-youbian a:hover {
+    color: red;
+}
+
+.mito {
+    width: 100%;
+    height: 976px;
+    background-image: url(../images/14.jpg);
+}
+
+/* 第二部分 */
+/* 左边部分 */
+.er {
+    display: inline-block;
+    width: 290px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 195px;
+    background-color: #9e7652;
+}
+
+.er img {
+    padding-top: 64px;
+    padding-left: 34px;
+}
+
+.er p {
+    width: 210px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 34px;
+    margin-top: -5px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* 右边部分 */
+.er-yo {
+    position: relative;
+    top: -500px;
+    display: inline-block;
+    width: 910px;
+    height: 500px;
+    margin-left: 640px;
+    background-color: #fff;
+}
+
+.bx {
+    position: relative;
+    top: -20px;
+    width: 780px;
+    height: 100%;
+    margin-left: 60px;
+}
+
+/* 右边上面部分*/
+.er-yo-sm {
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    border-bottom: 4px solid #efefef;
+}
+
+.er-yo-sm span {
+    position: relative;
+    top: 35px;
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.kx {
+    width: 530px;
+    height: 40px;
+    padding-left: 260px;
+}
+
+.er-yo-sm li {
+    width: 74px;
+    height: 40px;
+    float: left;
+}
+
+.kx a {
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 74px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.kx a:hover {
+    color: #333;
+}
+
+.kx li:nth-child(7) {
+    border: 2px solid #ccc;
+    color: #000;
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+}
