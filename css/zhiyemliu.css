@@ -1,0 +1,350 @@
+/* 第一部分 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.tobu {
+    width: 100%;
+    height: 55px;
+    background-color: #FFF;
+}
+
+.container-zbian {
+    float: left;
+    width: 180px;
+    height: 55px;
+    background-color: #cf1132;
+}
+
+.container-zbian span {
+    font-size: 11px;
+    color: #FFF;
+    line-height: 55px;
+    padding-left: 75px;
+    box-sizing: border-box;
+}
+
+.container-tupian {
+    float: left;
+}
+
+.container-tupian img {
+    margin-top: 4px;
+    height: 44px;
+    margin-left: 742px;
+    box-sizing: border-box;
+}
+
+.container-youbian {
+    float: right;
+    width: 138px;
+    height: 55px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.container-youbian:hover {
+    border-bottom: 1px solid red;
+}
+
+.container-youbian a {
+    color: #333;
+    line-height: 55px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.container-youbian a:hover {
+    color: red;
+}
+
+.mito {
+    width: 100%;
+    height: 976px;
+    background-image: url(../images/14.jpg);
+}
+
+/* 第二部分 */
+/* 左边部分 */
+.er {
+    display: inline-block;
+    width: 290px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 248px;
+    background-color: #9e7652;
+}
+
+.er img {
+    padding-top: 64px;
+    padding-left: 34px;
+}
+
+.er p {
+    width: 210px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 34px;
+    margin-top: -5px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* 右边部分 */
+.er-yo {
+    position: relative;
+    top: -500px;
+    display: inline-block;
+    width: 910px;
+    height: 1056px;
+    margin-left: 640px;
+    background-color: #fff;
+}
+
+.bx {
+    position: relative;
+    top: -20px;
+    width: 780px;
+    margin-left: 60px;
+}
+
+/* 右边上面部分*/
+.er-yo-sm {
+    width: 100%;
+    height: 75px;
+    margin-top: 55px;
+    border-bottom: 4px solid #efefef;
+}
+
+.er-yo-sm span {
+    position: relative;
+    top: 35px;
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.kx {
+    width: 530px;
+    height: 40px;
+    padding-left: 260px;
+}
+
+.er-yo-sm li {
+    width: 74px;
+    height: 40px;
+    float: left;
+}
+
+.kx a {
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 74px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.kx a:hover {
+    color: #333;
+}
+
+.kx li:nth-child(5) a {
+    border: 2px solid #ccc;
+    color: #000;
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.ml {
+    width: 100%;
+    height: 510px;
+}
+
+.ml ul {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px dashed #999;
+}
+
+.ml li a {
+    font-size: 14px;
+    float: left;
+    color: #666;
+    width: 580px;
+    white-space: nowrap;
+    line-height: 50px;
+}
+
+.ml li a:hover {
+    color: #875135;
+}
+
+.ml li span:hover {
+    color: #875135;
+}
+
+.ml li span {
+    float: right;
+    color: #999;
+    font-size: 12px;
+    line-height: 50px;
+}
+
+.didi {
+    width: 100%;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.didi ul {
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.didi li {
+    width: 25px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+}
+
+.didi li:nth-child(2) {
+    border: 1px solid #333;
+}
+
+.didi li:nth-child(2) a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.didi li:nth-child(3) {
+    border: 1px solid #333;
+}
+
+.didi li:nth-child(3) a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.didi li:nth-child(4) {
+    border: 1px solid #333;
+}
+
+.didi li:nth-child(4) a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.didi li:nth-child(5) {
+    border: 1px solid #333;
+}
+
+.didi li:nth-child(5) a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.didi li:nth-child(6) {
+    width: 55px;
+    border: 1px solid #333;
+}
+
+.didi li:nth-child(6) a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.didi li:nth-child(7) {
+    width: 42px;
+    border: 1px solid #333;
+}
+
+.didi li:nth-child(7) a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.didi li:nth-child(8) {
+    width: 72px;
+}
+
+.didi li a {
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+    color: #333;
+    text-align: center;
+}
+
+.xmh {
+    width: 100%;
+    height: 328px;
+    background-color: #875135;
+}
+
+.zxm {
+    width: 100%;
+    height: 73px;
+    background-color: #272727;
+}
+
+.bax {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bax-yi {
+    display: inline-block;
+    width: 354px;
+    height: 48px;
+    padding-top: 10px;
+}
+
+.bax-yi img:nth-child(3) {
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.bax-yi img:nth-child(4) {
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.bax-er {
+    display: inline-block;
+    width: 543px;
+    height: 48px;
+    position: relative;
+    top: -25px;
+}
+
+.bax-er p {
+    color: #fff;
+}
+
+.bax-er span:nth-child(2) {
+    float: left;
+    color: #fff;
+    padding-top: 13px;
+}
+
+.bax-er span:nth-child(3) {
+    float: right;
+    background-color: #610000;
+    color: #fff;
+    width: 139px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 7px;
+}

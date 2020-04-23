@@ -298,7 +298,10 @@ i:hover {
     width: 20px;
     height: 20px;
     background-image: url(../images/16.png);
-    rotate: (90deg) scale(1.3);
+}
+
+.wu-y-wu:hover{
+    transform: rotate(60deg);
 }
 
 .liu {
