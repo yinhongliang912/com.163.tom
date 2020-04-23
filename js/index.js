@@ -50,3 +50,8 @@ $(".qi li").on("mouseover", function () {
     .stop()
     .fadeOut();
 });
+
+$(".san-hhh").click(function () {
+  console.log(666)
+  $(".hp").show();
+});
