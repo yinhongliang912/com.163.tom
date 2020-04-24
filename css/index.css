@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+html,body{
+    height: 2926px;
+}
+
 
 .tobu {
     width: 100%;
@@ -125,7 +129,7 @@ body {
 }
 
 .san-liu {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .san-liu:hover {
@@ -194,11 +198,25 @@ video {
     z-index: 1000;
 }
 
+.hp img {
+    float: right;
+    position: relative;
+    top: 14px;
+    right: 22px;
+}
 
+.hp p {
+    color: #b72929;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 225px;
+    top: 75px;
+}
 /* 第三部分 */
 .si {
     position: relative;
-    top: 1100px;
+    top: -1535px;
     left: 340px;
     width: 1222px;
     height: 244px;
@@ -235,7 +253,7 @@ i:hover {
 /* 第四部分 */
 .wu {
     position: relative;
-    top: 1185px;
+    top: -1455px;
     left: 340px;
     width: 1220px;
     height: 540px;
@@ -300,7 +318,7 @@ i:hover {
     background-image: url(../images/16.png);
 }
 
-.wu-y-wu:hover{
+.wu-y-wu:hover {
     transform: rotate(60deg);
 }
 
@@ -404,46 +422,49 @@ i:hover {
 }
 
 /* 第五部分 */
-.qi img {
-    display: block;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.qi ul {
+/* img {
+    display: block;
+} */
+
+ul {
     list-style: none;
 }
 
-.qi {
+.king {
+    width: 1229px;
+    overflow: hidden;
+    padding: 10px;
     position: relative;
-    top: 1240px;
-    left: 340px;
-    width: 1220px;
-    height: 390px;
+    top: -1395px;
+    left: 335px;
+}
+
+.king ul {
     overflow: hidden;
 }
 
-
-
-.qi ul {
-    overflow: hidden;
-}
-
-.qi li {
+.king li {
     position: relative;
     float: left;
     width: 119px;
     height: 391px;
-    margin-left: 12px;
+    margin-right: 10px;
 }
 
-.qi li.qi-yi {
+.king li.current {
     width: 693px;
 }
 
-.qi li.qi-yi .big {
+.king li.current .big {
     display: block;
 }
 
-.qi li.qi-yi .small {
+.king li.current .small {
     display: none;
 }
 
@@ -458,12 +479,15 @@ i:hover {
     left: 0;
     width: 119px;
     height: 391px;
+    border-radius: 5px;
 }
 
 /* 尾部 */
 .zui {
     width: 100%;
     background-color: #000;
+    position: relative;
+    top: -1196px;
 }
 
 .banxing {

@@ -1,0 +1,292 @@
+/* 第一部分 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.tobu {
+    width: 100%;
+    height: 55px;
+    background-color: #FFF;
+}
+
+.container-zbian {
+    float: left;
+    width: 180px;
+    height: 55px;
+    background-color: #cf1132;
+}
+
+.container-zbian span {
+    font-size: 11px;
+    color: #FFF;
+    line-height: 55px;
+    padding-left: 75px;
+    box-sizing: border-box;
+}
+
+.container-tupian {
+    float: left;
+}
+
+.container-tupian img {
+    margin-top: 4px;
+    height: 44px;
+    margin-left: 742px;
+    box-sizing: border-box;
+}
+
+.container-youbian {
+    float: right;
+    width: 138px;
+    height: 55px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.container-youbian:hover {
+    border-bottom: 1px solid red;
+}
+
+.container-youbian a {
+    color: #333;
+    line-height: 55px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.container-youbian a:hover {
+    color: red;
+}
+
+.mito {
+    width: 100%;
+    height: 976px;
+    background-image: url(../images/14.jpg);
+}
+
+/* 第二部分 */
+/* 左边部分 */
+.er {
+    display: inline-block;
+    width: 290px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 248px;
+    background-color: #9e7652;
+}
+
+.er img {
+    padding-top: 64px;
+    padding-left: 34px;
+}
+
+.er p {
+    width: 210px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 34px;
+    margin-top: -5px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* 右边部分 */
+.er-yo {
+    position: relative;
+    top: -500px;
+    display: inline-block;
+    width: 910px;
+    height: 3556px;
+    margin-left: 640px;
+    background-color: #fff;
+}
+
+.bx {
+    position: relative;
+    top: -20px;
+    width: 780px;
+    height: 3521px;
+    margin-left: 60px;
+}
+
+/* 右边上面部分*/
+.er-yo-sm {
+    width: 100%;
+    height: 75px;
+    margin-top: 55px;
+    border-bottom: 4px solid #efefef;
+}
+
+.xw {
+    position: relative;
+    top: 35px;
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.kx {
+    width: 530px;
+    height: 40px;
+    padding-left: 260px;
+}
+
+.kx li {
+    float: right;
+    width: 200px;
+    height: 15px;
+    padding-top: 30px;
+}
+
+.kx li span {
+    font-size: 14px;
+    color: #999;
+}
+
+.kx li a {
+    font-size: 14px;
+    color: #999;
+}
+
+.kx li a:hover {
+    color: red;
+}
+
+/* 中间内容 */
+.yox {
+    width: 632px;
+    height: 29px;
+    font-size: 22px;
+    line-height: 29px;
+    padding-left: 148px;
+    color: #a48568;
+    padding-top: 40px;
+}
+
+.siy {
+    position: relative;
+    top: 20px;
+    padding-left: 300px;
+    font-size: 12px;
+    color: #7b7b7b;
+}
+
+.sie {
+    position: relative;
+    top: 20px;
+    padding-left: 25px;
+    font-size: 12px;
+    color: #7b7b7b;
+}
+
+.zjian {
+    width: 100%;
+    height: 1000px;
+    margin-top: 60px;
+}
+
+.zjian p:nth-child(1) {
+    padding-left: 28px;
+    color: #999;
+    font-size: 15px;
+}
+
+.zjian p {
+    padding-left: 28px;
+    font-size: 15px;
+    color: #999;
+    margin: 15px 0;
+    line-height: 24px;
+}
+
+.zjian h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #999;
+}
+
+.zjian img {
+    width: 600px;
+    height: 333px;
+    padding-left: 65px;
+}
+
+.zjian span{
+    font-size: 15px;
+    color: #999;
+    padding-left: 310px;
+}
+
+.zjian p a{
+    color: #a48568;
+}
+
+/* 下面的部分 */
+.xmh {
+    width: 100%;
+    height: 2828px;
+    background-color: #875135;
+}
+
+.zxm {
+    width: 100%;
+    height: 73px;
+    background-color: #272727;
+}
+
+.bax {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bax-yi {
+    display: inline-block;
+    width: 354px;
+    height: 48px;
+    padding-top: 10px;
+}
+
+.bax-yi img:nth-child(3) {
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.bax-yi img:nth-child(4) {
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.bax-er {
+    display: inline-block;
+    width: 543px;
+    height: 48px;
+    position: relative;
+    top: -25px;
+}
+
+.bax-er p {
+    color: #fff;
+}
+
+.bax-er span:nth-child(2) {
+    float: left;
+    color: #fff;
+    padding-top: 13px;
+}
+
+.bax-er span:nth-child(3) {
+    float: right;
+    background-color: #610000;
+    color: #fff;
+    width: 139px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 7px;
+}
