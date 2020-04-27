@@ -1,0 +1,312 @@
+/* 第一部分 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tobu {
+    width: 100%;
+    height: 55px;
+    background-color: #FFF;
+}
+
+.container-zbian {
+    float: left;
+    width: 180px;
+    height: 55px;
+    background-color: #cf1132;
+}
+
+.container-zbian span {
+    font-size: 11px;
+    color: #FFF;
+    line-height: 55px;
+    padding-left: 75px;
+    box-sizing: border-box;
+}
+
+.container-tupian {
+    float: left;
+}
+
+.container-tupian img {
+    margin-top: 4px;
+    height: 44px;
+    margin-left: 742px;
+    box-sizing: border-box;
+}
+
+.container-youbian {
+    float: right;
+    width: 138px;
+    height: 55px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.container-youbian:hover {
+    border-bottom: 1px solid red;
+}
+
+.container-youbian a {
+    color: #333;
+    line-height: 55px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.container-youbian a:hover {
+    color: red;
+}
+
+/* 第二部分 */
+.er {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/24.jpg);
+}
+
+.er-yi {
+    width: 620px;
+    height: 870px;
+    position: relative;
+    top: 108px;
+    left: 345px;
+}
+
+.er-er {
+    width: 100%;
+    height: 89px;
+}
+
+.er-er ul {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.er-er li {
+    display: inline-block;
+    width: 212px;
+    height: 89px;
+}
+
+.er-er li:nth-child(2) {
+    position: relative;
+    top: -18px;
+}
+
+.er-san {
+    width: 100%;
+    height: 809px;
+    background-image: url(../images/32.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -28px;
+}
+
+.ul {
+    width: 619px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 105px;
+}
+
+.ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 137px;
+    height: 150px;
+    position: relative;
+}
+
+.ul li img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.ul li i {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 142px;
+    height: 142px;
+    background-image: url(../images/43.png);
+    background-size: 100% auto;
+    margin-left: -71px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.ul li:nth-child(1) i {
+    opacity: 1;
+}
+
+.ul li b {
+    position: absolute;
+    right: 0;
+    bottom: 146px;
+    width: 65px;
+    height: 74px;
+    background-image: url(../images/44.png);
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: -1;
+}
+
+.ul li:nth-child(1) b {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* 字部分 */
+.san-yi {
+    position: absolute;
+    bottom: 180px;
+    left: 72px;
+    width: 476px;
+    height: 207px;
+    background-image: url(../images/47.png);
+}
+
+.san-er{
+    width: 428px;
+    height: 190px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -95px 0 0 -214px;
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: left;
+    text-align: justify;
+    padding-right: 3%;
+}
+
+.san-san{
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+}
+
+
+
+
+
+
+
+
+/* 第三部分 */
+.zui {
+    width: 100%;
+    background-color: #000;
+}
+
+.banxing {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.banxing-shanbiantuh {
+    display: inline-block;
+    width: 986px;
+    height: 58px;
+}
+
+.banxing-shanbiantuh span:nth-child(1) {
+    float: left;
+    margin-left: 305px;
+    margin-top: 22px;
+    color: #fff;
+}
+
+.banxing-shanbiantuh span:nth-child(2) {
+    float: left;
+    margin-top: 14px;
+}
+
+.banxing-diergbf {
+    float: left;
+    width: 100%;
+    height: 48px;
+}
+
+.banxing-zbbfh {
+    display: inline-block;
+    width: 353px;
+    height: 48px;
+}
+
+.banxing-zbbfh span a:nth-child(3) {
+    margin: 0 16px;
+}
+
+.tupiand img {
+    float: right;
+}
+
+.banxing-ybbfh {
+    float: right;
+    width: 612px;
+    height: 32px;
+}
+
+.banxing-b a {
+    color: #fff;
+}
+
+.banxing-b a:hover {
+    color: #fff;
+}
+
+.banxing-a {
+    display: inline-block;
+    width: 612px;
+    height: 16px;
+
+}
+
+.banxing-a p {
+    display: inline-block;
+    margin-top: 13px;
+    color: #fff;
+}
+
+.banxing-a a {
+    display: inline-block;
+    margin-left: 248px;
+    width: 139px;
+    height: 26px;
+    color: #FFF;
+    line-height: 26px;
+    background-color: #610000;
+}
+
+.zhyibfhhhe p {
+    margin-top: 14px;
+    color: #fff;
+}
+
+.zhyibfhhhe p:nth-child(1) {
+    margin-top: 58px;
+}
+
+.zhyibfhhhe span {
+    display: inline-block;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.zhyibfhhhe a {
+    color: #fff;
+}
+
+.zhyibfhhhe a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
