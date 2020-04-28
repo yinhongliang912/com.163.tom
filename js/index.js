@@ -12,8 +12,8 @@ $(function () {
 });
 
 // $(function () {
-//   var zhi = $(".liu ul").length; 
-//   var num = 0; 
+//   var zhi = $(".liu ul").length;
+//   var num = 0;
 //   setInterval(function () {
 //     num++;
 //     if (num == zhi) {
@@ -23,6 +23,3 @@ $(function () {
 //     $(".liu ul").eq(num).css("display", "block");
 //   }, 5000);
 // });
-
- 
-

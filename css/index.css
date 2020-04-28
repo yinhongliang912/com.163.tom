@@ -5,7 +5,8 @@ body {
     padding: 0;
 }
 
-html,body{
+html,
+body {
     height: 2926px;
 }
 
@@ -174,7 +175,7 @@ video {
 }
 
 .san-hhh {
-    padding-left: 280px;
+    margin-left: 280px;
     position: absolute;
     top: 665px;
     width: 303px;
@@ -213,6 +214,7 @@ video {
     left: 225px;
     top: 75px;
 }
+
 /* 第三部分 */
 .si {
     position: relative;
@@ -421,15 +423,30 @@ i:hover {
     font-size: 15px;
 }
 
+.gddw {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    width: 138px;
+    height: 160px;
+    z-index: 10;
+    background-image: url(../images/58.png);
+}
+
+.mli {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background-image: url(../images/57.png);
+}
+
 /* 第五部分 */
 * {
     margin: 0;
     padding: 0;
 }
-
-/* img {
-    display: block;
-} */
 
 ul {
     list-style: none;
@@ -481,6 +498,8 @@ ul {
     height: 391px;
     border-radius: 5px;
 }
+
+
 
 /* 尾部 */
 .zui {
