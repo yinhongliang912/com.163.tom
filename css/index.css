@@ -162,10 +162,12 @@ body {
     height: 169px;
     border: 3px solid #fff;
     border-radius: 50%;
+    background-image: url(../images/08.png);
     overflow: hidden;
 }
 
-video {
+
+.poiu {
     position: absolute;
     top: -53px;
     left: -68px;
@@ -174,10 +176,36 @@ video {
     border-radius: 50%;
 }
 
+
+.dasp {
+    position: fixed;
+    top: 28%;
+    left: 30%;
+    width: 800px;
+    height: 450px;
+    z-index: 30;
+    display: none;
+}
+
+.ycdasp {
+    position: fixed;
+    top: 266px;
+    left: 1371px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/60.png);
+    background-repeat: no-repeat;
+    z-index: 30;
+    display: none;
+}
+
+
+
 .san-hhh {
     margin-left: 280px;
     position: absolute;
-    top: 665px;
+    top: 850px;
+    left: 650px;
     width: 303px;
     height: 114px;
 }
@@ -274,10 +302,34 @@ i:hover {
 .pic {
     list-style: none;
     border: 0;
+    border: 2px solid #ba8657;
+    height: 400px;
+    width: 360px;
 }
 
 .wu-yi .pic li {
     display: inline-block;
+}
+
+.xiaoyudian {
+    position: absolute;
+    top: 480px;
+    left: 160px;
+    width: 168px;
+    height: 16px;
+}
+
+.xiaoyudian a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.xiaoyudian a:hover {
+    background-color: #f0df2d;
 }
 
 /* 右边部分 */
@@ -308,6 +360,13 @@ i:hover {
     text-align: center;
     line-height: 75px;
     color: #fff;
+}
+
+
+
+.wu-y ul li:hover{
+    background-image: url(../images/17.png);
+    color: red;
 }
 
 .wu-y-wu {

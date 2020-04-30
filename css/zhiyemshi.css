@@ -139,11 +139,8 @@ body {
     background-size: 100% auto;
     margin-left: -71px;
     background-repeat: no-repeat;
-    opacity: 0;
-}
-
-.ul li:nth-child(1) i {
     opacity: 1;
+    display: none;
 }
 
 .ul li b {
@@ -154,14 +151,20 @@ body {
     height: 74px;
     background-image: url(../images/44.png);
     background-repeat: no-repeat;
-    opacity: 0;
-    z-index: -1;
+    opacity: 1;
+    z-index: 2;
+    display: none;
+}
+
+.ul li:nth-child(1) i {
+   display: block;
 }
 
 .ul li:nth-child(1) b {
-    opacity: 1;
-    z-index: 2;
+    display: block;
 }
+
+
 
 /* 字部分 */
 .san-yi {
@@ -234,20 +237,38 @@ body {
     width: 196px;
     height: 100px;
 }
+
 /* 右边部分 */
-.youbian{
+.youbian {
     width: 604px;
     height: 604px;
     background-image: url(../images/39.png);
     background-repeat: no-repeat;
-    margin: -635px 0 0 963px;;
+    margin: -635px 0 0 963px;
     position: relative;
 }
 
-.youbian img{
+.youbian img {
     position: absolute;
     left: 32px;
     bottom: -30px;
+}
+
+.youbiant {
+    width: 604px;
+    height: 604px;
+    background-image: url(../images/39.png);
+    background-repeat: no-repeat;
+    margin: -635px 0 0 963px;
+    position: relative;
+    display: none;
+}
+
+.youbiant img {
+    position: absolute;
+    left: 32px;
+    bottom: -30px;
+    display: none;
 }
 
 /* 第三部分 */

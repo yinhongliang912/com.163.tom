@@ -39,29 +39,23 @@
         <a class="san-pe" href="">
           <img class="san-liu" src="./images/07.png" alt="" />
         </a>
-        <a class="san-ps" href="">
-          <video autoplay="autoplay" controls loop muted>
+        <a class="san-ps">
+          <video autoplay="autoplay" class="poiu" controls loop muted>
             <source src="./video/666.mp4" />
           </video>
         </a>
-        <a class="san-hhh">
-          <img class="tantu" src="./images/09.png" alt="" />
-        </a>
-        <div class="hp">
-          <a><img src="./images/31.png" alt="" /></a>
-          <p>wwjnkaewcr</p>
-        </div>
+        <a class="ycdasp"></a>
+        <video autoplay="autoplay" class="dasp" controls loop muted>
+          <source src="./video/666.mp4" />
+        </video>
       </div>
-      <script>
-        $(".san-hhh").click(function () {
-          $(".hp").show();
-          $(".hhoi").show();
-        });
-        $(".hp img").click(function () {
-          $(".hp").hide();
-          $(".hhoi").hide();
-        });
-      </script>
+    </div>
+    <a class="san-hhh">
+      <img class="tantu" src="./images/09.png" alt="" />
+    </a>
+    <div class="hp">
+      <a><img src="./images/31.png" alt="" /></a>
+      <p>wwjnkaewcr</p>
     </div>
     <!-- 第三部分 -->
     <div class="si">
@@ -93,7 +87,9 @@
             <img src="./images/04.jpg" alt="" />
           </li>
           <li>
-            <a href="./zhiyemshier.html"><img src="./images/05.jpg" alt="" /></a>
+            <a href="./zhiyemshier.html"
+              ><img src="./images/05.jpg" alt=""
+            /></a>
           </li>
           <li>
             <img src="./images/06.jpg" alt="" />
@@ -102,6 +98,14 @@
             <img src="./images/07.jpg" alt="" />
           </li>
         </ul>
+      </div>
+      <div class="xiaoyudian">
+        <a></a>
+        <a></a>
+        <a></a>
+        <a></a>
+        <a></a>
+        <a></a>
       </div>
       <!-- 右边部分 -->
       <div class="wu-er">
@@ -271,11 +275,7 @@
     <div class="gddw">
       <a class="mli"></a>
     </div>
-    <script>
-      $(".mli").click(function () {
-        $(".gddw").hide();
-      });
-    </script>
+
     <!-- 第五部分 -->
     <div class="king">
       <ul>
@@ -311,33 +311,7 @@
         </li>
       </ul>
     </div>
-    <script>
-      $(".king li").on("mouseover", function () {
-        $(this)
-          .stop()
-          .animate({
-            width: 693,
-          })
-          .find(".small")
-          .stop()
-          .fadeOut()
-          .siblings(".big")
-          .stop()
-          .fadeIn();
-        $(this)
-          .siblings("li")
-          .stop()
-          .animate({
-            width: 119,
-          })
-          .find(".small")
-          .stop()
-          .fadeIn()
-          .siblings(".big")
-          .stop()
-          .fadeOut();
-      });
-    </script>
+
     <!-- 尾部-->
     <div class="zui">
       <div class="banxing">
