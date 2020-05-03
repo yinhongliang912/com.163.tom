@@ -157,7 +157,7 @@ body {
 }
 
 .ul li:nth-child(1) i {
-   display: block;
+    display: block;
 }
 
 .ul li:nth-child(1) b {
@@ -197,6 +197,13 @@ body {
     line-height: 39px;
 }
 
+.san-wu {
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+    display: none;
+}
+
 /* 下面的图标 */
 .san-si {
     position: absolute;
@@ -220,6 +227,32 @@ body {
 }
 
 .san-si li:nth-child(1) {
+    margin-left: 0;
+}
+
+.qh-yi {
+    position: absolute;
+    width: 100%;
+    bottom: 39px;
+    height: 128px;
+    text-align: center;
+    display: none;
+}
+
+.qh-yi ul {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+.qh-yi li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 49px;
+    cursor: pointer;
+}
+
+.qh-yi li:nth-child(1) {
     margin-left: 0;
 }
 
