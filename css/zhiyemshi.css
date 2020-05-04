@@ -204,6 +204,27 @@ body {
     display: none;
 }
 
+.san-liu {
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+    display: none;
+}
+
+.san-qi {
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+    display: none;
+}
+
+.san-ba {
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+    display: none;
+}
+
 /* 下面的图标 */
 .san-si {
     position: absolute;
@@ -223,7 +244,6 @@ body {
     display: inline-block;
     vertical-align: top;
     margin-left: 49px;
-    cursor: pointer;
 }
 
 .san-si li:nth-child(1) {
@@ -231,28 +251,54 @@ body {
 }
 
 .qh-yi {
-    position: absolute;
-    width: 100%;
-    bottom: 39px;
-    height: 128px;
-    text-align: center;
+    font-size: 0;
     display: none;
 }
 
-.qh-yi ul {
-    width: 100%;
-    height: 100%;
-    font-size: 0;
-}
-
 .qh-yi li {
-    display: inline-block;
-    vertical-align: top;
     margin-left: 49px;
-    cursor: pointer;
 }
 
 .qh-yi li:nth-child(1) {
+    margin-left: 0;
+}
+
+.qh-er {
+    font-size: 0;
+    display: none;
+}
+
+.qh-er li {
+    margin-left: 49px;
+}
+
+.qh-er li:nth-child(1) {
+    margin-left: 0;
+}
+
+.qh-san {
+    font-size: 0;
+    display: none;
+}
+
+.qh-san li {
+    margin-left: 49px;
+}
+
+.qh-san li:nth-child(1) {
+    margin-left: 0;
+}
+
+.qh-si {
+    font-size: 0;
+    display: none;
+}
+
+.qh-si li {
+    margin-left: 49px;
+}
+
+.qh-si li:nth-child(1) {
     margin-left: 0;
 }
 
@@ -298,6 +344,54 @@ body {
 }
 
 .youbiant img {
+    position: absolute;
+    left: 32px;
+    bottom: -30px;
+    display: none;
+}
+
+.youbiantyi {
+    height: 604px;
+    background-image: url(../images/39.png);
+    background-repeat: no-repeat;
+    margin: -635px 0 0 963px;
+    position: relative;
+    display: none;
+}
+
+.youbiantyi img {
+    position: absolute;
+    left: 32px;
+    bottom: -30px;
+    display: none;
+}
+
+.youbianter {
+    height: 604px;
+    background-image: url(../images/39.png);
+    background-repeat: no-repeat;
+    margin: -635px 0 0 963px;
+    position: relative;
+    display: none;
+}
+
+.youbianter img {
+    position: absolute;
+    left: 32px;
+    bottom: -30px;
+    display: none;
+}
+
+.youbiantsan {
+    height: 604px;
+    background-image: url(../images/39.png);
+    background-repeat: no-repeat;
+    margin: -635px 0 0 963px;
+    position: relative;
+    display: none;
+}
+
+.youbiantsan img {
     position: absolute;
     left: 32px;
     bottom: -30px;
