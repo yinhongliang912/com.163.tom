@@ -111,6 +111,7 @@ body {
     text-align: center;
     position: relative;
     top: 105px;
+    overflow: hidden;
 }
 
 .ul li {
@@ -163,8 +164,6 @@ body {
 .ul li:nth-child(1) b {
     display: block;
 }
-
-
 
 /* 字部分 */
 .san-yi {
@@ -219,6 +218,20 @@ body {
 }
 
 .san-ba {
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+    display: none;
+}
+
+.san-jiu {
+    color: #f9d99e;
+    font-size: 18px;
+    line-height: 39px;
+    display: none;
+}
+
+.san-shi {
     color: #f9d99e;
     font-size: 18px;
     line-height: 39px;
@@ -299,6 +312,32 @@ body {
 }
 
 .qh-si li:nth-child(1) {
+    margin-left: 0;
+}
+
+.qh-wu {
+    font-size: 0;
+    display: none;
+}
+
+.qh-wu li {
+    margin-left: 49px;
+}
+
+.qh-wu li:nth-child(1) {
+    margin-left: 0;
+}
+
+.qh-liu {
+    font-size: 0;
+    display: none;
+}
+
+.qh-liu li {
+    margin-left: 49px;
+}
+
+.qh-liu li:nth-child(1) {
     margin-left: 0;
 }
 
@@ -392,6 +431,38 @@ body {
 }
 
 .youbiantsan img {
+    position: absolute;
+    left: 32px;
+    bottom: -30px;
+    display: none;
+}
+
+.youbiantsi {
+    height: 604px;
+    background-image: url(../images/39.png);
+    background-repeat: no-repeat;
+    margin: -635px 0 0 963px;
+    position: relative;
+    display: none;
+}
+
+.youbiantsi img {
+    position: absolute;
+    left: 32px;
+    bottom: -30px;
+    display: none;
+}
+
+.youbiantwu {
+    height: 604px;
+    background-image: url(../images/39.png);
+    background-repeat: no-repeat;
+    margin: -635px 0 0 963px;
+    position: relative;
+    display: none;
+}
+
+.youbiantwu img {
     position: absolute;
     left: 32px;
     bottom: -30px;

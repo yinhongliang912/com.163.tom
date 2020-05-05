@@ -30,6 +30,18 @@ $(".ul-yi").click(function () {
   $(".san-ba").hide();
   $(".youbiantsan").hide();
   $(".youbiantsan img").hide();
+  $(".qh-wu").hide();
+  $(".ul-qi i").hide();
+  $(".ul-qi b").hide();
+  $(".san-jiu").hide();
+  $(".youbiantsi").hide();
+  $(".youbiantsi img").hide();
+  $(".qh-liu").hide();
+  $(".ul-ba i").hide();
+  $(".ul-ba b").hide();
+  $(".san-shi").hide();
+  $(".youbiantwu").hide();
+  $(".youbiantwu img").hide();
 });
 
 $(".ul-er").click(function () {
@@ -56,6 +68,18 @@ $(".ul-er").click(function () {
   $(".san-ba").hide();
   $(".youbiantsan").hide();
   $(".youbiantsan img").hide();
+  $(".qh-wu").hide();
+  $(".ul-qi i").hide();
+  $(".ul-qi b").hide();
+  $(".san-jiu").hide();
+  $(".youbiantsi").hide();
+  $(".youbiantsi img").hide();
+  $(".qh-liu").hide();
+  $(".ul-ba i").hide();
+  $(".ul-ba b").hide();
+  $(".san-shi").hide();
+  $(".youbiantwu").hide();
+  $(".youbiantwu img").hide();
 
   $(".san-si").show();
   $(".qh-yi").show();
@@ -90,6 +114,18 @@ $(".ul-san").click(function () {
   $(".san-ba").hide();
   $(".youbiantsan").hide();
   $(".youbiantsan img").hide();
+  $(".qh-wu").hide();
+  $(".ul-qi i").hide();
+  $(".ul-qi b").hide();
+  $(".san-jiu").hide();
+  $(".youbiantsi").hide();
+  $(".youbiantsi img").hide();
+  $(".qh-liu").hide();
+  $(".ul-ba i").hide();
+  $(".ul-ba b").hide();
+  $(".san-shi").hide();
+  $(".youbiantwu").hide();
+  $(".youbiantwu img").hide();
 
   $(".san-si").show();
   $(".qh-er").show();
@@ -124,6 +160,18 @@ $(".ul-wu").click(function () {
   $(".san-ba").hide();
   $(".youbiantsan").hide();
   $(".youbiantsan img").hide();
+  $(".qh-wu").hide();
+  $(".ul-qi i").hide();
+  $(".ul-qi b").hide();
+  $(".san-jiu").hide();
+  $(".youbiantsi").hide();
+  $(".youbiantsi img").hide();
+  $(".qh-liu").hide();
+  $(".ul-ba i").hide();
+  $(".ul-ba b").hide();
+  $(".san-shi").hide();
+  $(".youbiantwu").hide();
+  $(".youbiantwu img").hide();
 
   $(".san-si").show();
   $(".qh-san").show();
@@ -158,6 +206,18 @@ $(".ul-liu").click(function () {
   $(".san-qi").hide();
   $(".youbianter").hide();
   $(".youbianter img").hide();
+  $(".qh-wu").hide();
+  $(".ul-qi i").hide();
+  $(".ul-qi b").hide();
+  $(".san-jiu").hide();
+  $(".youbiantsi").hide();
+  $(".youbiantsi img").hide();
+  $(".qh-liu").hide();
+  $(".ul-ba i").hide();
+  $(".ul-ba b").hide();
+  $(".san-shi").hide();
+  $(".youbiantwu").hide();
+  $(".youbiantwu img").hide();
 
   $(".san-si").show();
   $(".qh-si").show();
@@ -166,4 +226,97 @@ $(".ul-liu").click(function () {
   $(".san-ba").show();
   $(".youbiantsan").show();
   $(".youbiantsan img").show();
+});
+
+$(".ul-qi").click(function () {
+  $(".ul-yi i").hide();
+  $(".ul-yi b").hide();
+  $(".ul-er i").hide();
+  $(".ul-er b").hide();
+  $(".ul-san i").hide();
+  $(".ul-san b").hide();
+  $(".youbian").hide();
+  $(".san-san").hide();
+  $(".san-wu").hide();
+  $(".banman").hide();
+  $(".youbiant").hide();
+  $(".youbiant img").hide();
+  $(".youbiantyi").hide();
+  $(".youbiantyi img").hide();
+  $(".qh-yi").hide();
+  $(".qh-er").hide();
+  $(".san-liu").hide();
+  $(".qh-san").hide();
+  $(".ul-wu i").hide();
+  $(".ul-wu b").hide();
+  $(".san-qi").hide();
+  $(".youbianter").hide();
+  $(".youbianter img").hide();
+  $(".qh-si").hide();
+  $(".ul-liu i").hide();
+  $(".ul-liu b").hide();
+  $(".san-ba").hide();
+  $(".youbiantsan").hide();
+  $(".youbiantsan img").hide();
+
+  $(".qh-liu").hide();
+  $(".ul-ba i").hide();
+  $(".ul-ba b").hide();
+  $(".san-shi").hide();
+  $(".youbiantwu").hide();
+  $(".youbiantwu img").hide();
+
+  $(".san-si").show();
+  $(".qh-wu").show();
+  $(".ul-qi i").show();
+  $(".ul-qi b").show();
+  $(".san-jiu").show();
+  $(".youbiantsi").show();
+  $(".youbiantsi img").show();
+});
+
+$(".ul-ba").click(function () {
+  $(".ul-yi i").hide();
+  $(".ul-yi b").hide();
+  $(".ul-er i").hide();
+  $(".ul-er b").hide();
+  $(".ul-san i").hide();
+  $(".ul-san b").hide();
+  $(".youbian").hide();
+  $(".san-san").hide();
+  $(".san-wu").hide();
+  $(".banman").hide();
+  $(".youbiant").hide();
+  $(".youbiant img").hide();
+  $(".youbiantyi").hide();
+  $(".youbiantyi img").hide();
+  $(".qh-yi").hide();
+  $(".qh-er").hide();
+  $(".san-liu").hide();
+  $(".qh-san").hide();
+  $(".ul-wu i").hide();
+  $(".ul-wu b").hide();
+  $(".san-qi").hide();
+  $(".youbianter").hide();
+  $(".youbianter img").hide();
+  $(".qh-si").hide();
+  $(".ul-liu i").hide();
+  $(".ul-liu b").hide();
+  $(".san-ba").hide();
+  $(".youbiantsan").hide();
+  $(".youbiantsan img").hide();
+  $(".qh-wu").hide();
+  $(".ul-qi i").hide();
+  $(".ul-qi b").hide();
+  $(".san-jiu").hide();
+  $(".youbiantsi").hide();
+  $(".youbiantsi img").hide();
+
+  $(".san-si").show();
+  $(".qh-liu").show();
+  $(".ul-ba i").show();
+  $(".ul-ba b").show();
+  $(".san-shi").show();
+  $(".youbiantwu").show();
+  $(".youbiantwu img").show();
 });
